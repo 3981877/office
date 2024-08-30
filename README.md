@@ -18,3 +18,10 @@ setup /download config.xml
 ```
 setup /configure config.xml
 ```
+激活命令（以管理员身份打开命令提示符）
+```
+cd\
+cd C:\Program Files\Microsoft Office\Office16
+cscript ospp.vbs /sethst:kms.03k.org
+cscript ospp.vbs /act
+```
